@@ -1,10 +1,81 @@
 # About
 
-Java studies. Twitter clone back-end API implemented with Spring! ![Spring Logo](https://spring.io/images/spring-logo-2022-dark-2f10e8055653ec50e693eb444291d742.svg)
+---
+
+<div align="center">
+  <br>
+  <img src="https://play-lh.googleusercontent.com/K9Jf-N8RWHDw2IZSY_vjSfIVm2X6jGN9riRIAK9nl_BgJxpYK2VQWQl-yPlCtBUTNasw=s48-rw"/>
+  <h3>Java studies. Twitter clone back-end API implemented with Spring!</h1>
+</div>
+
+---
 
 # Getting Started
 
-### Reference Documentation
+- Have the `JDK` installed in your computer, if you don't have it or are having troubles doing that, follow the steps in this [tutorial](https://java.tutorials24x7.com/blog/how-to-install-java-17-on-windows).
+- Install `VSCode` and make sure you have some extensions ready to be used, such as [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) and [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack).
+- Open the application on VSCode, open the file `ApiApplication.java` and click on Run.
+- Now the application should be running on `port 8080` and you can access it on our browser as `http://localhost:8080/`
+
+---
+
+# How it Works
+
+> ### POST /api/auth/sign-up
+>
+> - #### Expected body
+> ```java
+> {
+>   username: "bobesponja",
+>   avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
+> }
+> ```
+
+> ### POST /api/tweets
+>
+> - #### Expected body
+> ```java
+> {
+>   username: "bobesponja",
+>   tweet: "eu amo o hub"
+> }
+> ```
+
+> ### GET /api/tweets
+> 
+> - #### Expected body
+> ```java
+> [
+>   {
+>     username: "bobesponja",
+>     avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
+>     tweet: "eu amo o hub"
+>   }
+> ]
+> ```
+>
+> - #### Expected response
+> >  The last 5 posted tweets.
+
+> ### GET /api/tweets/USERNAME
+> 
+> - #### Expected body
+> ```java
+> [
+>   {
+>     username: "bobesponja",
+>     avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
+>     tweet: "eu amo o hub"
+>   }
+> ]
+> ```
+>
+> - #### Expected response
+> > All the tweets posted by the user.
+
+---
+
+# Reference Documentation
 
 For further reference, please consider the following sections:
 
@@ -16,7 +87,9 @@ For further reference, please consider the following sections:
 - [Spring Web](https://docs.spring.io/spring-boot/docs/3.0.2/reference/htmlsingle/#web)
 - [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.0.2/reference/htmlsingle/#data.sql.jpa-and-spring-data)
 
-### Guides
+---
+
+# Guides
 
 The following guides illustrate how to use some features concretely:
 
@@ -25,3 +98,9 @@ The following guides illustrate how to use some features concretely:
 - [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 - [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 - [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+
+---
+
+## Author
+
+[<img src="https://avatars.githubusercontent.com/Lucas-zz" width=150 title="Lucas-zz"><br>Lucas Azzolini Vieira](https://github.com/Lucas-zz)
