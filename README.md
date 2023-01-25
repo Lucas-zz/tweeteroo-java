@@ -3,7 +3,6 @@
 ---
 
 <div align="center">
-  <br>
   <img src="https://play-lh.googleusercontent.com/K9Jf-N8RWHDw2IZSY_vjSfIVm2X6jGN9riRIAK9nl_BgJxpYK2VQWQl-yPlCtBUTNasw=s48-rw"/>
   <h3>Java studies. Twitter clone back-end API implemented with Spring!</h1>
 </div>
