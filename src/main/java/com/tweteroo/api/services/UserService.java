@@ -19,7 +19,7 @@ public class UserService {
         repository.save(new UserModel(data));
     }
 
-    public boolean findUserByUsername(String username) {
+    public boolean getUserByUsername(String username) {
         List<UserModel> user = repository.findByUsername(username);
 
         return !user.isEmpty();

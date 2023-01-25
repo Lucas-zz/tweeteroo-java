@@ -29,8 +29,8 @@ public class TweetModel {
     private String username;
 
     @Column(length = 200, nullable = false)
-    private String avatar;
+    private String tweet;
 
     @Column(length = 200, nullable = false)
-    private String tweet;
+    private String avatar;
 }
