@@ -10,6 +10,8 @@
 
 ---
 
+- Download and run the frontend project to see it working on [Tweteroo](https://github.com/Lucas-zz/Tweteroo-Frontend).
+
 # Getting Started
 
 - Have the `JDK` installed in your computer, if you don't have it or are having troubles doing that, follow the steps in this [tutorial](https://java.tutorials24x7.com/blog/how-to-install-java-17-on-windows).
